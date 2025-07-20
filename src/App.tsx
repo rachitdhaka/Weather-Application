@@ -9,6 +9,8 @@ function App() {
 
   const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
+
+  // !Get Weather Funcion , which fetches the function using open weather api
 const getWeather = async () => {
   if (!city) return;
 
